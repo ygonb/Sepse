@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.ygo.sepse.ComoSaber6Activity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:background="@color/azul"
+        android:textSize="5sp"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Tem manchas na pele"
+        android:textColor="#FFFFFF"
+        android:background="@color/azul"
+        android:textSize="20sp"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="ou está com palidez?"
+        android:textColor="#FFFFFF"
+        android:background="@color/azul"
+        android:textSize="20sp"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:background="@color/azul"
+        android:textSize="5sp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:background="#FFFFFF"
+        android:textSize="5sp"></TextView>
+
+    <RadioGroup
+        android:id="@+id/rg_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+        <RadioButton
+            android:id="@+id/rb_sim6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sim"
+            android:textSize="20sp"
+            android:checked="false"/>
+
+        <FrameLayout
+            android:layout_width="30sp"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:id="@+id/rb_nao6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não"
+            android:textSize="20sp"
+            android:checked="false"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:background="#FFFFFF"
+        android:textSize="5sp"></TextView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal">
+
+        <FrameLayout
+            android:layout_width="10sp"
+            android:layout_height="match_parent"></FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_manchas_na_pele">
+        </ImageView>
+        <FrameLayout
+            android:layout_width="10sp"
+            android:layout_height="match_parent"></FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:background="#FFFFFF"
+        android:textSize="5sp"></TextView>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+        <Button
+            android:id="@+id/bt_prox_como_saber6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Próximo"
+            android:layout_gravity="right"
+            android:drawableRight="@drawable/ic_navigate_next_black_24dp"></Button>
+        <Button
+            android:id="@+id/bt_ant_como_saber6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anterior"
+            android:layout_gravity="left"
+            android:drawableLeft="@drawable/ic_navigate_before_black_24dp"></Button>
+        <TextView
+            android:id="@+id/tv_pontuacao6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:text="0">
+        </TextView>
+    </FrameLayout>
+
+</LinearLayout>

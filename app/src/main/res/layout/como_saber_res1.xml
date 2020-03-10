@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.ygo.sepse.ComoSaber_res1Activity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:background="@color/azul"
+        android:textSize="5sp"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Resultado"
+        android:textColor="#FFFFFF"
+        android:background="@color/azul"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:background="@color/azul"
+        android:textSize="5sp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:background="#FFFFFF"
+        android:textSize="5sp"></TextView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_gravity="center_horizontal">
+
+
+        <FrameLayout
+            android:layout_width="10sp"
+            android:layout_height="match_parent"></FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:background="#00AA00">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuide-se!"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="#00AA00"
+            android:layout_gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mantenha"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:background="#00AA00"
+                        android:layout_gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seus exames"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:background="#00AA00"
+                        android:layout_gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="atualizados."
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:background="#00AA00"
+                        android:layout_gravity="center_horizontal"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="10sp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_inicio_boneco"
+                android:scaleType="fitXY">
+            </ImageView>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="10sp"
+            android:layout_height="match_parent"></FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:background="#FFFFFF"
+        android:textSize="5sp"></TextView>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+        <Button
+            android:id="@+id/bt_prox_como_saber_res1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finalizar"
+            android:layout_gravity="right"></Button>
+        <Button
+            android:id="@+id/bt_ant_como_saber_res1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anterior"
+            android:layout_gravity="left"
+            android:drawableLeft="@drawable/ic_navigate_before_black_24dp"></Button>
+        <TextView
+            android:id="@+id/tv_pontuacao_res1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:text="0">
+        </TextView>
+    </FrameLayout>
+
+</LinearLayout>
