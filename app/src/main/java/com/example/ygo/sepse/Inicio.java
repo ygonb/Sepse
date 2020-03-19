@@ -23,6 +23,7 @@ public class Inicio extends DebugActivity {
 
         ImageButton btComoSaber = (ImageButton) findViewById(R.id.bt_como_saber);
         ImageButton btSaibaMais = (ImageButton) findViewById(R.id.bt_saiba_mais);
+        ImageButton btComoPrevenir = (ImageButton) findViewById(R.id.bt_como_prevenir);
 
 
         btComoSaber.setOnClickListener(new View.OnClickListener(){
@@ -40,6 +41,12 @@ public class Inicio extends DebugActivity {
             }});
 
 
+        btComoPrevenir.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View view){
+                Intent intent = new Intent (getContext(), comoPrevenir.class);
+                startActivity(intent);
+            }});
 
 
         /*
