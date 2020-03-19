@@ -40,11 +40,10 @@ public class Inicio extends DebugActivity {
                 startActivity(intent);
             }});
 
-
         btComoPrevenir.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View view){
-                Intent intent = new Intent (getContext(), comoPrevenir.class);
+                Intent intent = new Intent (getContext(), ComoPrevenir.class);
                 startActivity(intent);
             }});
 

@@ -10,12 +10,11 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-public class comoPrevenir extends DebugActivity {
+public class ComoPrevenir extends DebugActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.como_prevenir);
-
 
     }
 }

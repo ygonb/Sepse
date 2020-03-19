@@ -6,34 +6,58 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context="com.example.ygo.sepse.comoPrevenir"
+    tools:context="com.example.ygo.sepse.ComoPrevenir"
     >
 
-
-    <TextView
+   <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=" "
         android:background="#FFFFFF"
         android:textSize="5sp"></TextView>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ImageView
+            android:layout_height="match_parent">
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:scaleType="fitStart"
-                android:src="@drawable/ic_conj_em_curva_como_prevenir">
-            </ImageView>
-        </LinearLayout>
-    </ScrollView>
+                android:orientation="vertical">
+                <ImageView
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_conj_em_curva_como_prevenir_1">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:background="#FFFFFF"
+                    android:textSize="5sp"></TextView>
 
+                <ImageView
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_conj_em_curva_como_prevenir_2">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:background="#FFFFFF"
+                    android:textSize="5sp"></TextView>
+
+                <ImageView
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_conj_em_curva_como_prevenir_3">
+                </ImageView>
+            </LinearLayout>
+        </ScrollView>
 
     <TextView
         android:layout_width="match_parent"
@@ -41,9 +65,5 @@
         android:text=" "
         android:background="#FFFFFF"
         android:textSize="5sp"></TextView>
-
-
-
-
 
 </LinearLayout>
