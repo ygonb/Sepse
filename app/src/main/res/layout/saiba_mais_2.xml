@@ -12,18 +12,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FF9800"
-        android:gravity="center"
-        android:shadowColor="#171717"
-        android:text=" Sua identificação precoce é essencial para evitar complicação e morte "
+        android:layout_gravity="center"
+        android:background="#2196F3"
+        android:gravity="center_horizontal"
+        android:shadowColor="#FBF7F7"
+        android:text="Sua identificação precoce é essencial para evitar complicação e morte "
+        android:textColor="#FFFFFF"
         android:textSize="30sp" />
 
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="2"
+        android:scaleType="centerCrop"
         app:srcCompat="@mipmap/bonecasaibamais2_foreground" />
 
     <TextView

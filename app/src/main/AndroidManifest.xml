@@ -20,7 +20,8 @@
         <activity android:name="com.example.ygo.sepse.DebugActivity" />
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.Tela2Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.Tela2Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="@string/title_activity_tela2"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -28,7 +29,8 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber1Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.ComoSaber1Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -36,7 +38,8 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber2Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.ComoSaber2Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -44,7 +47,8 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber3Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.ComoSaber3Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -52,7 +56,8 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber4Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.ComoSaber4Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -60,7 +65,8 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber5Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.ComoSaber5Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -68,7 +74,8 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber6Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.ComoSaber6Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -76,7 +83,8 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber7Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.ComoSaber7Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -84,7 +92,8 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber_res1Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.ComoSaber_res1Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -92,7 +101,8 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber_res2Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.ComoSaber_res2Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -100,7 +110,8 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber_res3Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.ComoSaber_res3Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -108,15 +119,17 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.SaibaMais" android:parentActivityName="com.example.ygo.sepse.Inicio"
-            android:label="Informações"
+            android:name="com.example.ygo.sepse.SaibaMais"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:label="Saiba Mais"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
                 android:value=".Inicio"/>
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoPrevenir" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.ComoPrevenir"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como prevenir"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -133,7 +146,8 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.SaibaMais2Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.SaibaMais2Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Saiba Mais 2"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
@@ -141,7 +155,8 @@
         </activity>
         <activity
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.SaibaMais3Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name="com.example.ygo.sepse.SaibaMais3Activity"
+            android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Saiba Mais 3"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"

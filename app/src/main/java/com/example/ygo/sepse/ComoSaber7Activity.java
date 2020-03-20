@@ -38,7 +38,7 @@ public class ComoSaber7Activity extends DebugActivity {
                 tv_pontuacao7.setText(Integer.toString(somatorio));
                 if (somatorio<31){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>51){
+                }else if (somatorio>71){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -63,7 +63,7 @@ public class ComoSaber7Activity extends DebugActivity {
                 tv_pontuacao7.setText(Integer.toString(somatorio));
                 if (somatorio<31){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>51){
+                }else if (somatorio>71){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -88,7 +88,7 @@ public class ComoSaber7Activity extends DebugActivity {
                 tv_pontuacao7.setText(Integer.toString(somatorio));
                 if (somatorio<31){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>51){
+                }else if (somatorio>71){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -113,7 +113,7 @@ public class ComoSaber7Activity extends DebugActivity {
                 tv_pontuacao7.setText(Integer.toString(somatorio));
                 if (somatorio<31){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>51){
+                }else if (somatorio>71){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -138,7 +138,7 @@ public class ComoSaber7Activity extends DebugActivity {
                 tv_pontuacao7.setText(Integer.toString(somatorio));
                 if (somatorio<31){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>51){
+                }else if (somatorio>71){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -163,7 +163,7 @@ public class ComoSaber7Activity extends DebugActivity {
                 Intent intent;
                 if (somatorio<31){
                     intent = new Intent (getBaseContext(), ComoSaber_res1Activity.class);
-                }else if (somatorio>51){
+                }else if (somatorio>71){
                     intent = new Intent (getBaseContext(), ComoSaber_res3Activity.class);
                 }else{
                     intent = new Intent (getBaseContext(), ComoSaber_res2Activity.class);
