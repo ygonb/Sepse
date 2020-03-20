@@ -143,7 +143,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="5"
                 android:layout_height="match_parent"
-                android:src="@drawable/ic_podemorrer"
+                android:src="@drawable/boneco_imediatamente"
                 android:scaleType="fitXY">
             </ImageView>
 

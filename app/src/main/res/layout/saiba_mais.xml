@@ -25,14 +25,14 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:scaleType="centerCrop"
-        app:srcCompat="@mipmap/boneca_saiba_mais1" />
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/boneca_3_saiba_mais" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=" "
         android:background="#FFFFFF"
+        android:text=" "
         android:textSize="5sp"></TextView>
 
 

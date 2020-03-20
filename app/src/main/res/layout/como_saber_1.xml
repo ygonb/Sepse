@@ -96,7 +96,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_saiba_mais_dor_barriga"></ImageView>
+            android:src="@drawable/boneco_infecção_1"></ImageView>
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -109,7 +109,7 @@
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
                 android:layout_weight="1"
-                android:src="@drawable/ic_saiba_mais_dor_dente">
+                android:src="@drawable/boneco_infecção_2">
             </ImageView>
         <FrameLayout
             android:layout_width="10sp"

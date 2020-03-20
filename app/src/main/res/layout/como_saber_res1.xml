@@ -119,7 +119,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="6"
                 android:layout_height="match_parent"
-                android:src="@drawable/ic_inicio_boneco"
+                android:src="@drawable/boneco_cuide_se"
                 android:scaleType="fitXY">
             </ImageView>
 

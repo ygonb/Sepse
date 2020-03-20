@@ -148,7 +148,7 @@
             android:screenOrientation="fullSensor"
             android:name="com.example.ygo.sepse.SaibaMais2Activity"
             android:parentActivityName="com.example.ygo.sepse.Inicio"
-            android:label="Saiba Mais 2"
+            android:label="Saiba Mais"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
                 android:value=".Inicio"/>
@@ -157,7 +157,7 @@
             android:screenOrientation="fullSensor"
             android:name="com.example.ygo.sepse.SaibaMais3Activity"
             android:parentActivityName="com.example.ygo.sepse.Inicio"
-            android:label="Saiba Mais 3"
+            android:label="Saiba Mais"
             android:theme="@style/AppTheme">
             <meta-data android:name="android.support.PARENT_ACTIVIT"
                 android:value=".Inicio"/>
