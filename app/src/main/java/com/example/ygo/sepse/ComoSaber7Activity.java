@@ -36,9 +36,9 @@ public class ComoSaber7Activity extends DebugActivity {
                 }
                 somatorio = pontuacao6 + pontuacao7 + pontuacao8 + pontuacao9 + pontuacao10 + pontuacao11;
                 tv_pontuacao7.setText(Integer.toString(somatorio));
-                if (somatorio<30){
+                if (somatorio<31){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>50){
+                }else if (somatorio>51){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -61,9 +61,9 @@ public class ComoSaber7Activity extends DebugActivity {
                 }
                 somatorio = pontuacao6 + pontuacao7 + pontuacao8 + pontuacao9 + pontuacao10 + pontuacao11;
                 tv_pontuacao7.setText(Integer.toString(somatorio));
-                if (somatorio<30){
+                if (somatorio<31){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>50){
+                }else if (somatorio>51){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -86,9 +86,9 @@ public class ComoSaber7Activity extends DebugActivity {
                 }
                 somatorio = pontuacao6 + pontuacao7 + pontuacao8 + pontuacao9 + pontuacao10 + pontuacao11;
                 tv_pontuacao7.setText(Integer.toString(somatorio));
-                if (somatorio<30){
+                if (somatorio<31){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>50){
+                }else if (somatorio>51){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -111,9 +111,9 @@ public class ComoSaber7Activity extends DebugActivity {
                 }
                 somatorio = pontuacao6 + pontuacao7 + pontuacao8 + pontuacao9 + pontuacao10 + pontuacao11;
                 tv_pontuacao7.setText(Integer.toString(somatorio));
-                if (somatorio<30){
+                if (somatorio<31){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>50){
+                }else if (somatorio>51){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -136,9 +136,9 @@ public class ComoSaber7Activity extends DebugActivity {
                 }
                 somatorio = pontuacao6 + pontuacao7 + pontuacao8 + pontuacao9 + pontuacao10 + pontuacao11;
                 tv_pontuacao7.setText(Integer.toString(somatorio));
-                if (somatorio<30){
+                if (somatorio<31){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>50){
+                }else if (somatorio>51){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");

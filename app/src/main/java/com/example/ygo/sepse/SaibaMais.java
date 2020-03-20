@@ -2,10 +2,8 @@ package com.example.ygo.sepse;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class SaibaMais extends DebugActivity {
     @Override
@@ -14,12 +12,14 @@ public class SaibaMais extends DebugActivity {
         setContentView(R.layout.saiba_mais);
 
 
-       // Button btProx = (Button) findViewById(R.id.bt_prox_saiba_mais);
+        Button bt_prox_saiba_mais;
+        bt_prox_saiba_mais = (Button)
+                this.<View>findViewById(R.id.bt_prox_saiba_mais);
 
-        //btProx.setOnClickListener(new View.OnClickListener(){
-        //    public void onClick (View view){
-        //        Intent intent = new Intent (getBaseContext(), Inicio.class);;
-        //        startActivity(intent);
-        //    }});
+        bt_prox_saiba_mais.setOnClickListener(new View.OnClickListener(){
+            public void onClick (View v) {
+                Intent it = new
+                        Intent(getBaseContext(), SaibaMais2Activity.class);
+                startActivity(it);}});
     }
 }

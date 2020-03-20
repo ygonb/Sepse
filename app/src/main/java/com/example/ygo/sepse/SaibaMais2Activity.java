@@ -16,9 +16,10 @@ public class SaibaMais2Activity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.saiba_mais_2);
 
-        Button btAnt = (Button) findViewById(R.id.bt_ant_saiba_mais_2);
+        Button bt_ant_saiba_mais_2 =
+                findViewById(R.id.bt_ant_saiba_mais_2);
 
-        btAnt.setOnClickListener(new View.OnClickListener(){
+        bt_ant_saiba_mais_2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View view){
                 Intent intent = new Intent (getBaseContext(), SaibaMaisActivity.class);
@@ -26,12 +27,14 @@ public class SaibaMais2Activity extends Activity {
             }});
 
         View btProx = null;
-        btProx.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick (View view){
-               {
-                    Intent intent = new Intent (getBaseContext(), SaibaMais3Activity.class);
-                    startActivity(intent);}
-            }});
+        Button bt_prox_saiba_mais;
+        bt_prox_saiba_mais = (Button)
+                this.<View>findViewById(R.id.bt_prox_saiba_mais_2);
+
+        bt_prox_saiba_mais.setOnClickListener(new View.OnClickListener(){
+            public void onClick (View v) {
+                Intent it = new
+                        Intent(getBaseContext(), SaibaMais3Activity.class);
+                startActivity(it);}});
     }
 }

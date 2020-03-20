@@ -18,7 +18,7 @@ public class SaibaMais3Activity extends Activity {
         btAnt.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View view){
-                Intent intent = new Intent (getBaseContext(), ComoSaber7Activity.class);
+                Intent intent = new Intent (getBaseContext(), SaibaMais2Activity.class);
                 startActivity(intent);
             }});
 
