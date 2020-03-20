@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context="com.example.ygo.sepse.SaibaMais2Activity"
     >
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +16,7 @@
         android:gravity="center"
         android:shadowColor="#171717"
         android:text=" Sua identificação precoce é essencial para evitar complicação e morte "
-        android:textSize="30sp"></TextView>
+        android:textSize="30sp" />
 
 
     <ImageView
@@ -53,8 +54,8 @@
             android:text="Anterior"
             android:layout_gravity="left"
             android:drawableLeft="@drawable/ic_navigate_before_black_24dp" />
-        </TextView>
+        </FrameLayout>
 
-    </FrameLayout>
+
 
 </LinearLayout>

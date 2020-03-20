@@ -25,6 +25,13 @@ public class SaibaMais2Activity extends Activity {
                 startActivity(intent);
             }});
 
-        Button btProx = (Button) findViewById(R.id.bt_prox_saiba_mais_2);
-
+        View btProx = null;
+        btProx.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View view){
+               {
+                    Intent intent = new Intent (getBaseContext(), SaibaMais3Activity.class);
+                    startActivity(intent);}
+            }});
+    }
 }

@@ -11,15 +11,16 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class SaibaMaisActivity extends Activity {
-}@Override
+@Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.saiba_mais);
 
+    View btProx = null;
     btProx.setOnClickListener(new View.OnClickListener(){
         @Override
         public void onClick (View view){
-            if
+            {
                 Intent intent = new Intent (getBaseContext(), SaibaMais2Activity.class);
                 startActivity(intent);}
         }});
