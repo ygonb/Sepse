@@ -2,4 +2,5 @@
     <string name="app_name">Guia Rápido da Sepse</string>
     <string name="textoNovo">Olá, esse texto é novo</string>
     <string name="title_activity_tela2">Tela2Activity</string>
+    <string name="menu">Menu</string>
 </resources>

@@ -122,6 +122,30 @@
             <meta-data android:name="android.support.PARENT_ACTIVIT"
                 android:value=".Inicio"/>
         </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.example.ygo.sepse.SaibaMais" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:label="Saiba Mais"
+            android:theme="@style/AppTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio"/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.example.ygo.sepse.SaibaMais2Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:label="Saiba Mais 2"
+            android:theme="@style/AppTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio"/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.example.ygo.sepse.SaibaMais3Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:label="Saiba Mais 3"
+            android:theme="@style/AppTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio"/>
+        </activity>
     </application>
 
 </manifest>

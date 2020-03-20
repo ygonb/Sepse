@@ -161,9 +161,9 @@ public class ComoSaber7Activity extends DebugActivity {
             @Override
             public void onClick (View view){
                 Intent intent;
-                if (somatorio<30){
+                if (somatorio<31){
                     intent = new Intent (getBaseContext(), ComoSaber_res1Activity.class);
-                }else if (somatorio>50){
+                }else if (somatorio>51){
                     intent = new Intent (getBaseContext(), ComoSaber_res3Activity.class);
                 }else{
                     intent = new Intent (getBaseContext(), ComoSaber_res2Activity.class);
