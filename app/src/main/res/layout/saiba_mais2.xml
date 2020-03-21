@@ -6,18 +6,20 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context="com.example.ygo.sepse.SaibaMais"
+    tools:context="com.example.ygo.sepse.SaibaMais2"
     >
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:background="#2196F3"
-        android:gravity="center"
-        android:shadowColor="#F8F3F3"
-        android:text="A maioria das infecções que causam sepse foram adquiridas fora do hospital"
+        android:gravity="center_horizontal"
+        android:shadowColor="#FBF7F7"
+        android:text="Sua identificação precoce é essencial para evitar complicação e morte "
         android:textColor="#FFFFFF"
         android:textSize="30sp" />
+
 
     <ImageView
         android:id="@+id/imageView4"
@@ -25,14 +27,15 @@
         android:layout_height="0dp"
         android:layout_weight="2"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/boneca_1_saiba_mais" />
+        app:srcCompat="@drawable/boneca_2_saiba_mais" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
         android:text=" "
-        android:textSize="5sp"></TextView>
+        android:textSize="5sp" />
+
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -40,13 +43,20 @@
         android:background="@color/colorPrimary">
 
         <Button
-            android:id="@+id/bt_prox_saiba_mais"
+            android:id="@+id/bt_prox_saiba_mais_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Próximo"
             android:layout_gravity="right"
             android:drawableRight="@drawable/ic_navigate_next_black_24dp" />
 
+        <Button
+            android:id="@+id/bt_ant_saiba_mais_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anterior"
+            android:layout_gravity="left"
+            android:drawableLeft="@drawable/ic_navigate_before_black_24dp" />
     </FrameLayout>
 
 

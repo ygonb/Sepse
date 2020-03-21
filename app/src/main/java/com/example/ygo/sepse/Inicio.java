@@ -52,32 +52,6 @@ public class Inicio extends DebugActivity {
                 startActivity(intent);
             }});
 
-
-        /*
-        Button btOK = (Button) findViewById(R.id.botaoOK);
-
-        btOK.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                EditText senha = (EditText) findViewById(R.id.senha);
-                String senhaDig = senha.getText().toString();
-
-                if ("1234".equals(senhaDig)){
-                    alerta("Senha correta");
-
-                    Intent intent = new Intent (getContext(), Tela2Activity.class);
-                    Bundle param = new Bundle();
-                    param.putString("nome",senhaDig);
-                    intent.putExtras(param);
-                    startActivity(intent);
-
-                } else {
-                    alerta("Senha incorreta");
-                }
-
-            }
-        });*/
         }
 
 
