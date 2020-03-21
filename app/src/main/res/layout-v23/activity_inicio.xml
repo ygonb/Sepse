@@ -82,7 +82,8 @@ tools:context="com.example.ygo.sepse.Inicio">
                                             android:layout_weight="1"
                                             android:background="#00FFFFFF"
                                             android:foreground="@drawable/balao_saiba_mais"
-                                            android:text="oi" />
+                                            android:text="oi"
+                                            android:contentDescription="TODO" />
 
                                         <ImageButton
                                             android:id="@+id/bt_como_saber"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Sepse.iml" filepath="$PROJECT_DIR$/../Sepse.iml" group="Sepse" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sepse-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Sepse-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" group="Sepse/app" />
+    </modules>
+  </component>
+</project>

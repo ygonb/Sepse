@@ -15,7 +15,7 @@ public class ComoSaber7Activity extends DebugActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.como_saber_7);
 
-        final TextView tv_pontuacao7 = (TextView) findViewById(R.id.tv_pontuacao7);
+        final TextView tv_pontuacao7 = findViewById(R.id.tv_pontuacao7);
         tv_pontuacao7.setText(Integer.toString(pontuacao6));
 
         final TextView tv_resultado = (TextView) findViewById(R.id.tv_resultado);
@@ -29,16 +29,16 @@ public class ComoSaber7Activity extends DebugActivity {
                 boolean nao = R.id.rb_nao7==checkedId;
                 if (sim){
                     Log.i(TAG,"Sim "+checkedId);
-                    pontuacao7 = 2;
+                    pontuacao7 = 6;
                 } else if (nao){
                     Log.i(TAG,"Nao "+checkedId);
                     pontuacao7 = 0;
                 }
                 somatorio = pontuacao6 + pontuacao7 + pontuacao8 + pontuacao9 + pontuacao10 + pontuacao11;
                 tv_pontuacao7.setText(Integer.toString(somatorio));
-                if (somatorio<31){
+                if (somatorio<30){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>48){
+                }else if (somatorio>50){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -54,16 +54,16 @@ public class ComoSaber7Activity extends DebugActivity {
                 boolean nao = R.id.rb_nao8==checkedId;
                 if (sim){
                     Log.i(TAG,"Sim "+checkedId);
-                    pontuacao8 = 2;
+                    pontuacao8 = 6;
                 } else if (nao){
                     Log.i(TAG,"Nao "+checkedId);
                     pontuacao8 = 0;
                 }
                 somatorio = pontuacao6 + pontuacao7 + pontuacao8 + pontuacao9 + pontuacao10 + pontuacao11;
                 tv_pontuacao7.setText(Integer.toString(somatorio));
-                if (somatorio<31){
+                if (somatorio<30){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>48){
+                }else if (somatorio>50){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -79,16 +79,16 @@ public class ComoSaber7Activity extends DebugActivity {
                 boolean nao = R.id.rb_nao9==checkedId;
                 if (sim){
                     Log.i(TAG,"Sim "+checkedId);
-                    pontuacao9 = 2;
+                    pontuacao9 = 6;
                 } else if (nao){
                     Log.i(TAG,"Nao "+checkedId);
                     pontuacao9 = 0;
                 }
                 somatorio = pontuacao6 + pontuacao7 + pontuacao8 + pontuacao9 + pontuacao10 + pontuacao11;
                 tv_pontuacao7.setText(Integer.toString(somatorio));
-                if (somatorio<31){
+                if (somatorio<30){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>48){
+                }else if (somatorio>50){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -104,16 +104,16 @@ public class ComoSaber7Activity extends DebugActivity {
                 boolean nao = R.id.rb_nao10==checkedId;
                 if (sim){
                     Log.i(TAG,"Sim "+checkedId);
-                    pontuacao10 = 2;
+                    pontuacao10 = 6;
                 } else if (nao){
                     Log.i(TAG,"Nao "+checkedId);
                     pontuacao10 = 0;
                 }
                 somatorio = pontuacao6 + pontuacao7 + pontuacao8 + pontuacao9 + pontuacao10 + pontuacao11;
                 tv_pontuacao7.setText(Integer.toString(somatorio));
-                if (somatorio<31){
+                if (somatorio<30){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>48){
+                }else if (somatorio>50){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -129,16 +129,16 @@ public class ComoSaber7Activity extends DebugActivity {
                 boolean nao = R.id.rb_nao11==checkedId;
                 if (sim){
                     Log.i(TAG,"Sim "+checkedId);
-                    pontuacao11 = 2;
+                    pontuacao11 = 6;
                 } else if (nao){
                     Log.i(TAG,"Nao "+checkedId);
                     pontuacao11 = 0;
                 }
                 somatorio = pontuacao6 + pontuacao7 + pontuacao8 + pontuacao9 + pontuacao10 + pontuacao11;
                 tv_pontuacao7.setText(Integer.toString(somatorio));
-                if (somatorio<31){
+                if (somatorio<30){
                     tv_resultado.setText("Está bem");
-                }else if (somatorio>48){
+                }else if (somatorio>50){
                     tv_resultado.setText("Ir hospital");
                 }else{
                     tv_resultado.setText("Cuide-se");
@@ -161,9 +161,9 @@ public class ComoSaber7Activity extends DebugActivity {
             @Override
             public void onClick (View view){
                 Intent intent;
-                if (somatorio<31){
+                if (somatorio<30){
                     intent = new Intent (getBaseContext(), ComoSaber_res1Activity.class);
-                }else if (somatorio>48){
+                }else if (somatorio>50){
                     intent = new Intent (getBaseContext(), ComoSaber_res3Activity.class);
                 }else{
                     intent = new Intent (getBaseContext(), ComoSaber_res2Activity.class);
