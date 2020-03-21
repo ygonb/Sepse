@@ -65,7 +65,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:background="#EEFF00">
+                android:background="#FFEB3B">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -78,7 +78,6 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:background="#EEFF00"
-                        android:text="Cuide-se!"
                         android:textColor="#660000"
                         android:textSize="20sp" />
 

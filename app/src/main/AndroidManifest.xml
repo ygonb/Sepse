@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.ygo.sepse.Inicio"
+        <activity
+            android:name=".Inicio"
             android:screenOrientation="fullSensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,150 +18,166 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.ygo.sepse.DebugActivity" />
+        <activity android:name=".DebugActivity" />
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.Tela2Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".Tela2Activity"
             android:label="@string/title_activity_tela2"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber1Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".ComoSaber1Activity"
             android:label="Como saber?"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber2Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".ComoSaber2Activity"
             android:label="Como saber?"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber3Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".ComoSaber3Activity"
             android:label="Como saber?"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber4Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".ComoSaber4Activity"
             android:label="Como saber?"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber5Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".ComoSaber5Activity"
             android:label="Como saber?"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber6Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".ComoSaber6Activity"
             android:label="Como saber?"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber7Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".ComoSaber7Activity"
             android:label="Como saber?"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber_res1Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".ComoSaber_res1Activity"
             android:label="Como saber?"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber_res2Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".ComoSaber_res2Activity"
             android:label="Como saber?"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoSaber_res3Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".ComoSaber_res3Activity"
             android:label="Como saber?"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
+            android:name=".Informacoes"
+            android:label="Informações"
+            android:parentActivityName=".Inicio"
             android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.SaibaMais"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
-            android:label="Saiba Mais"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.ComoPrevenir"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".ComoPrevenir"
             android:label="Como prevenir"
-            android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
-        </activity>
-        <activity
-            android:name="com.example.ygo.sepse.SaibaMaisActivity"
-            android:label="Saiba Mais"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:parentActivityName=".Inicio"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.SaibaMais2Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".SaibaMaisActivity"
             android:label="Saiba Mais"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
-            android:name="com.example.ygo.sepse.SaibaMais3Activity"
-            android:parentActivityName="com.example.ygo.sepse.Inicio"
+            android:name=".SaibaMais2Activity"
             android:label="Saiba Mais"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme">
-            <meta-data android:name="android.support.PARENT_ACTIVIT"
-                android:value=".Inicio"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
+        </activity>
+        <activity
+            android:name=".SaibaMais3Activity"
+            android:label="Saiba Mais"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIT"
+                android:value=".Inicio" />
         </activity>
     </application>
 

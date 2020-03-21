@@ -94,7 +94,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@drawable/bonecos_febre_dor_lombar">
+            android:src="@drawable/boneco_febre">
         </ImageView>
         <FrameLayout
             android:layout_width="10sp"

@@ -32,7 +32,7 @@ tools:context="com.example.ygo.sepse.Inicio">
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    app:srcCompat="@drawable/inicio_balao" />
+                    app:srcCompat="@drawable/balao_inicial" />
 
 
         </LinearLayout>
@@ -56,7 +56,7 @@ tools:context="com.example.ygo.sepse.Inicio">
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="fitXY"
-                            app:srcCompat="@drawable/ic_inicio_boneco" />
+                            app:srcCompat="@drawable/boneco_inicial" />
 
 
                 </LinearLayout>
@@ -81,7 +81,7 @@ tools:context="com.example.ygo.sepse.Inicio">
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"
                                             android:background="#00FFFFFF"
-                                            android:foreground="@drawable/ic_bt_saiba_mais"
+                                            android:foreground="@drawable/balao_saiba_mais"
                                             android:text="oi" />
 
                                         <ImageButton
@@ -90,7 +90,7 @@ tools:context="com.example.ygo.sepse.Inicio">
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"
                                             android:background="#00FFFFFF"
-                                            android:foreground="@drawable/bt_como_saber"
+                                            android:foreground="@drawable/balao_como_saber_se"
                                             android:text="oi" />
 
                                         <ImageButton
@@ -99,7 +99,7 @@ tools:context="com.example.ygo.sepse.Inicio">
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"
                                             android:background="#00FFFFFF"
-                                            android:foreground="@drawable/ic_bt_como_prevenir"
+                                            android:foreground="@drawable/balao_como_prevenir"
                                             android:text="oi" />
 
                                 </LinearLayout>
