@@ -18,15 +18,19 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static com.example.ygo.sepse.R.id.bt_prox_como_saber1;
+import static com.example.ygo.sepse.R.id.rg_1;
+import static com.example.ygo.sepse.R.layout.como_saber_1;
+
 public class ComoSaber1Activity extends DebugActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.como_saber_1);
+        setContentView(como_saber_1);
 
-        Button btProx = (Button) findViewById(R.id.bt_prox_como_saber1);
+        Button btProx = (Button) findViewById(bt_prox_como_saber1);
         final TextView tv_pontuacao1 = (TextView) findViewById(R.id.tv_pontuacao1);
-        RadioGroup grupo1 = (RadioGroup) findViewById(R.id.rg_1);
+        RadioGroup grupo1 = (RadioGroup) findViewById(rg_1);
         final RadioButton rb_sim1 = (RadioButton) findViewById(R.id.rb_sim1);
         final RadioButton rb_nao1 = (RadioButton) findViewById(R.id.rb_nao1);
         tv_pontuacao1.setText(Integer.toString(pontuacao0));

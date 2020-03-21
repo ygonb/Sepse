@@ -14,16 +14,21 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import static com.example.ygo.sepse.R.id.bt_como_prevenir;
+import static com.example.ygo.sepse.R.id.bt_como_saber;
+import static com.example.ygo.sepse.R.id.bt_saiba_mais;
+import static com.example.ygo.sepse.R.layout.activity_inicio;
+
 public class Inicio extends DebugActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inicio);
+        setContentView(activity_inicio);
 
-        ImageButton btComoSaber = (ImageButton) findViewById(R.id.bt_como_saber);
-        ImageButton btSaibaMais = (ImageButton) findViewById(R.id.bt_saiba_mais);
-        ImageButton btComoPrevenir = (ImageButton) findViewById(R.id.bt_como_prevenir);
+        ImageButton btComoSaber = (ImageButton) findViewById(bt_como_saber);
+        ImageButton btSaibaMais = (ImageButton) findViewById(bt_saiba_mais);
+        ImageButton btComoPrevenir = (ImageButton) findViewById(bt_como_prevenir);
 
 
         btComoSaber.setOnClickListener(new View.OnClickListener(){
@@ -36,7 +41,7 @@ public class Inicio extends DebugActivity {
         btSaibaMais.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View view){
-                Intent intent = new Intent (getContext(), SaibaMais.class);
+                Intent intent = new Intent (getContext(), SaibaMaisActivity.class);
                 startActivity(intent);
             }});
 
@@ -94,7 +99,7 @@ public class Inicio extends DebugActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         int id = item.getItemId();
         if(id==R.id.action_info){
-            Intent intent = new Intent (getContext(), SaibaMais.class);
+            Intent intent = new Intent (getContext(), Informacoes.class);
             startActivity(intent);
             return(true);
         }

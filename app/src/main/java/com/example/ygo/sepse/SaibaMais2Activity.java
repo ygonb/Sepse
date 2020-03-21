@@ -10,14 +10,18 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import static com.example.ygo.sepse.R.id.bt_ant_saiba_mais_2;
+import static com.example.ygo.sepse.R.id.bt_prox_saiba_mais_2;
+import static com.example.ygo.sepse.R.layout.saiba_mais_2;
+
 public class SaibaMais2Activity extends DebugActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.saiba_mais_2);
+        setContentView(saiba_mais_2);
 
-        Button bt_ant_saiba_mais_2 =
-                findViewById(R.id.bt_ant_saiba_mais_2);
+        Button bt_ant_saiba_mais_2;
+        bt_ant_saiba_mais_2 = findViewById(R.id.bt_ant_saiba_mais_2);
 
         bt_ant_saiba_mais_2.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -29,7 +33,7 @@ public class SaibaMais2Activity extends DebugActivity {
         View btProx = null;
         Button bt_prox_saiba_mais;
         bt_prox_saiba_mais = (Button)
-                this.<View>findViewById(R.id.bt_prox_saiba_mais_2);
+                this.<View>findViewById(bt_prox_saiba_mais_2);
 
         bt_prox_saiba_mais.setOnClickListener(new View.OnClickListener(){
             public void onClick (View v) {

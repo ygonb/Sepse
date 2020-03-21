@@ -9,15 +9,20 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import static com.example.ygo.sepse.R.id.bt_ant_como_saber3;
+import static com.example.ygo.sepse.R.id.bt_prox_como_saber3;
+import static com.example.ygo.sepse.R.id.rg_3;
+import static com.example.ygo.sepse.R.layout.como_saber_3;
+
 public class ComoSaber3Activity extends DebugActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.como_saber_3);
+        setContentView(como_saber_3);
 
 
         final TextView tv_pontuacao3 = (TextView) findViewById(R.id.tv_pontuacao3);
-        final RadioGroup grupo3 = (RadioGroup) findViewById(R.id.rg_3);
+        final RadioGroup grupo3 = (RadioGroup) findViewById(rg_3);
         final RadioButton rb_sim3 = (RadioButton) findViewById(R.id.rb_sim3);
         final RadioButton rb_nao3 = (RadioButton) findViewById(R.id.rb_nao3);
         tv_pontuacao3.setText(Integer.toString(pontuacao2));
@@ -40,7 +45,7 @@ public class ComoSaber3Activity extends DebugActivity {
 
 
 
-        Button btAnt = (Button) findViewById(R.id.bt_ant_como_saber3);
+        Button btAnt = (Button) findViewById(bt_ant_como_saber3);
 
         btAnt.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -49,7 +54,7 @@ public class ComoSaber3Activity extends DebugActivity {
                 startActivity(intent);
             }});
 
-        Button btProx = (Button) findViewById(R.id.bt_prox_como_saber3);
+        Button btProx = (Button) findViewById(bt_prox_como_saber3);
 
         btProx.setOnClickListener(new View.OnClickListener(){
             @Override

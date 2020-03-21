@@ -10,21 +10,27 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import static com.example.ygo.sepse.R.id.bt_ant_como_saber2;
+import static com.example.ygo.sepse.R.id.bt_prox_como_saber2;
+import static com.example.ygo.sepse.R.id.rb_sim2;
+import static com.example.ygo.sepse.R.id.rg_2;
+import static com.example.ygo.sepse.R.layout.como_saber_2;
+
 public class ComoSaber2Activity extends DebugActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.como_saber_2);
+        setContentView(como_saber_2);
 
         final TextView tv_pontuacao2 = (TextView) findViewById(R.id.tv_pontuacao2);
-        final RadioGroup grupo2 = (RadioGroup) findViewById(R.id.rg_2);
+        final RadioGroup grupo2 = (RadioGroup) findViewById(rg_2);
         final RadioButton rb_sim2 = (RadioButton) findViewById(R.id.rb_sim2);
         final RadioButton rb_nao2 = (RadioButton) findViewById(R.id.rb_nao2);
         tv_pontuacao2.setText(Integer.toString(pontuacao1));
 
         grupo2.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener(){
             public void onCheckedChanged(RadioGroup grupo2, int checkedId){
-                boolean sim = R.id.rb_sim2==checkedId;
+                boolean sim = R.id.rb_sim2 ==checkedId;
                 boolean nao = R.id.rb_nao2==checkedId;
 
                 if (sim){
@@ -39,7 +45,7 @@ public class ComoSaber2Activity extends DebugActivity {
             }});
 
 
-        Button btAnt = (Button) findViewById(R.id.bt_ant_como_saber2);
+        Button btAnt = (Button) findViewById(bt_ant_como_saber2);
 
         btAnt.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -48,7 +54,7 @@ public class ComoSaber2Activity extends DebugActivity {
                 startActivity(intent);
             }});
 
-        Button btProx = (Button) findViewById(R.id.bt_prox_como_saber2);
+        Button btProx = (Button) findViewById(bt_prox_como_saber2);
 
         btProx.setOnClickListener(new View.OnClickListener(){
             @Override

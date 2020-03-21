@@ -9,16 +9,20 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import static com.example.ygo.sepse.R.id.bt_ant_como_saber_res1;
+import static com.example.ygo.sepse.R.id.tv_pontuacao_res1;
+import static com.example.ygo.sepse.R.layout.como_saber_res1;
+
 public class ComoSaber_res1Activity extends DebugActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.como_saber_res1);
+        setContentView(como_saber_res1);
 
         final TextView tv_pontuacao_res1 = (TextView) findViewById(R.id.tv_pontuacao_res1);
         tv_pontuacao_res1.setText(Integer.toString(somatorio));
 
-        Button btAnt = (Button) findViewById(R.id.bt_ant_como_saber_res1);
+        Button btAnt = (Button) findViewById(bt_ant_como_saber_res1);
 
         btAnt.setOnClickListener(new View.OnClickListener(){
             @Override

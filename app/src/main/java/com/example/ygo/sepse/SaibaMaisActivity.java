@@ -10,11 +10,13 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import static com.example.ygo.sepse.R.layout.saiba_mais;
+
 public class SaibaMaisActivity extends Activity {
 @Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.saiba_mais);
+    setContentView(saiba_mais);
 
     View btProx = null;
     btProx.setOnClickListener(new View.OnClickListener(){

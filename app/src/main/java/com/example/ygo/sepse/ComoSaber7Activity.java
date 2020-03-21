@@ -9,24 +9,37 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import static com.example.ygo.sepse.R.id.bt_ant_como_saber7;
+import static com.example.ygo.sepse.R.id.bt_prox_como_saber7;
+import static com.example.ygo.sepse.R.id.rb_nao7;
+import static com.example.ygo.sepse.R.id.rb_sim7;
+import static com.example.ygo.sepse.R.id.rg_10;
+import static com.example.ygo.sepse.R.id.rg_11;
+import static com.example.ygo.sepse.R.id.rg_7;
+import static com.example.ygo.sepse.R.id.rg_8;
+import static com.example.ygo.sepse.R.id.rg_9;
+import static com.example.ygo.sepse.R.id.tv_pontuacao7;
+import static com.example.ygo.sepse.R.id.tv_resultado;
+import static com.example.ygo.sepse.R.layout.como_saber_7;
+
 public class ComoSaber7Activity extends DebugActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.como_saber_7);
+        setContentView(como_saber_7);
 
         final TextView tv_pontuacao7 = findViewById(R.id.tv_pontuacao7);
         tv_pontuacao7.setText(Integer.toString(pontuacao6));
 
         final TextView tv_resultado = (TextView) findViewById(R.id.tv_resultado);
 
-        final RadioGroup grupo7 = (RadioGroup) findViewById(R.id.rg_7);
+        final RadioGroup grupo7 = (RadioGroup) findViewById(rg_7);
         final RadioButton rb_sim7 = (RadioButton) findViewById(R.id.rb_sim7);
         final RadioButton rb_nao7 = (RadioButton) findViewById(R.id.rb_nao7);
         grupo7.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener(){
             public void onCheckedChanged(RadioGroup grupo7, int checkedId){
-                boolean sim = R.id.rb_sim7==checkedId;
-                boolean nao = R.id.rb_nao7==checkedId;
+                boolean sim = R.id.rb_sim7 ==checkedId;
+                boolean nao = R.id.rb_nao7 ==checkedId;
                 if (sim){
                     Log.i(TAG,"Sim "+checkedId);
                     pontuacao7 = 6;
@@ -45,7 +58,7 @@ public class ComoSaber7Activity extends DebugActivity {
                 }
             }});
 
-        final RadioGroup grupo8 = (RadioGroup) findViewById(R.id.rg_8);
+        final RadioGroup grupo8 = (RadioGroup) findViewById(rg_8);
         final RadioButton rb_sim8 = (RadioButton) findViewById(R.id.rb_sim8);
         final RadioButton rb_nao8 = (RadioButton) findViewById(R.id.rb_nao8);
         grupo8.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener(){
@@ -70,7 +83,7 @@ public class ComoSaber7Activity extends DebugActivity {
                 }
             }});
 
-        final RadioGroup grupo9 = (RadioGroup) findViewById(R.id.rg_9);
+        final RadioGroup grupo9 = (RadioGroup) findViewById(rg_9);
         final RadioButton rb_sim9 = (RadioButton) findViewById(R.id.rb_sim9);
         final RadioButton rb_nao9 = (RadioButton) findViewById(R.id.rb_nao9);
         grupo9.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener(){
@@ -95,7 +108,7 @@ public class ComoSaber7Activity extends DebugActivity {
                 }
             }});
 
-        final RadioGroup grupo10 = (RadioGroup) findViewById(R.id.rg_10);
+        final RadioGroup grupo10 = (RadioGroup) findViewById(rg_10);
         final RadioButton rb_sim10 = (RadioButton) findViewById(R.id.rb_sim10);
         final RadioButton rb_nao10 = (RadioButton) findViewById(R.id.rb_nao10);
         grupo10.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener(){
@@ -120,7 +133,7 @@ public class ComoSaber7Activity extends DebugActivity {
                 }
             }});
 
-        final RadioGroup grupo11 = (RadioGroup) findViewById(R.id.rg_11);
+        final RadioGroup grupo11 = (RadioGroup) findViewById(rg_11);
         final RadioButton rb_sim11 = (RadioButton) findViewById(R.id.rb_sim11);
         final RadioButton rb_nao11 = (RadioButton) findViewById(R.id.rb_nao11);
         grupo11.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener(){
@@ -146,7 +159,7 @@ public class ComoSaber7Activity extends DebugActivity {
             }});
 
 
-        Button btAnt = (Button) findViewById(R.id.bt_ant_como_saber7);
+        Button btAnt = (Button) findViewById(bt_ant_como_saber7);
 
         btAnt.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -155,7 +168,7 @@ public class ComoSaber7Activity extends DebugActivity {
                 startActivity(intent);
             }});
 
-        Button btProx = (Button) findViewById(R.id.bt_prox_como_saber7);
+        Button btProx = (Button) findViewById(bt_prox_como_saber7);
 
         btProx.setOnClickListener(new View.OnClickListener(){
             @Override
