@@ -41,7 +41,7 @@ public class Inicio extends DebugActivity {
         btSaibaMais.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View view){
-                Intent intent = new Intent (getContext(), SaibaMaisActivity.class);
+                Intent intent = new Intent (getContext(), SaibaMais.class);
                 startActivity(intent);
             }});
 
