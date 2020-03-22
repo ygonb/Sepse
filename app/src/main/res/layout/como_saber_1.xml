@@ -91,12 +91,13 @@
             android:layout_height="match_parent"></FrameLayout>
 
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="fitXY"
-            android:src="@drawable/boneco_infeccao_1"></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_saiba_mais_dor_barriga">
+            </ImageView>
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -109,7 +110,7 @@
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
                 android:layout_weight="1"
-                android:src="@drawable/boneco_infeccao_2">
+                android:src="@drawable/ic_saiba_mais_dor_dente">
             </ImageView>
         <FrameLayout
             android:layout_width="10sp"
@@ -138,6 +139,7 @@
             android:text="Próximo"
             android:layout_gravity="right"
             android:drawableRight="@drawable/ic_navigate_next_black_24dp"></Button>
+
     <TextView
         android:id="@+id/tv_pontuacao1"
         android:layout_width="wrap_content"
