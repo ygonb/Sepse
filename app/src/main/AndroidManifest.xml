@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.ygo.sepse.Inicio"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,7 @@
         </activity>
         <activity android:name="com.example.ygo.sepse.DebugActivity" />
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.ComoSaber1Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
@@ -27,7 +27,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.ComoSaber2Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
@@ -35,7 +35,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.ComoSaber3Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
@@ -43,7 +43,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.ComoSaber4Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
@@ -51,7 +51,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.ComoSaber5Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
@@ -59,7 +59,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.ComoSaber6Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
@@ -67,7 +67,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.ComoSaber7Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
@@ -75,7 +75,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.ComoSaber_res1Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
@@ -83,7 +83,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.ComoSaber_res2Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
@@ -91,7 +91,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.ComoSaber_res3Activity" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como saber?"
             android:theme="@style/AppTheme">
@@ -99,7 +99,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.SaibaMais" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Saiba mais"
             android:theme="@style/AppTheme">
@@ -107,7 +107,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.SaibaMais2" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Saiba mais"
             android:theme="@style/AppTheme">
@@ -115,7 +115,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.SaibaMais3" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Saiba mais"
             android:theme="@style/AppTheme">
@@ -123,7 +123,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.ComoPrevenir" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como prevenir"
             android:theme="@style/AppTheme">
@@ -131,7 +131,7 @@
                 android:value=".Inicio"/>
         </activity>
         <activity
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:name="com.example.ygo.sepse.Informacoes" android:parentActivityName="com.example.ygo.sepse.Inicio"
             android:label="Como prevenir"
             android:theme="@style/AppTheme">
