@@ -102,7 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@drawable/boceco_palidez">
+            android:src="@drawable/ic_manchas_na_pele">
         </ImageView>
         <FrameLayout
             android:layout_width="10sp"

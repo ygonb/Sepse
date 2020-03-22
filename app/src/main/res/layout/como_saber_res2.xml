@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context="com.example.ygo.sepse.ComoSaber_res2Activity"
+    tools:context="com.example.ygo.sepse.ComoSaber_res1Activity"
     >
 
     <TextView
@@ -63,9 +63,9 @@
 
             <FrameLayout
                 android:layout_width="0dp"
+                android:layout_weight="4"
                 android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:background="#FFEB3B">
+                android:background="#EEFF00">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -73,67 +73,62 @@
                     android:layout_gravity="center"
                     android:orientation="vertical">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuide-se!"
+            android:textSize="20sp"
+            android:textColor="#660000"
+            android:background="#EEFF00"
+            android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#EEFF00"
-                        android:textColor="#660000"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#EEFF00"
                         android:text="Procure o"
+                        android:textSize="20sp"
                         android:textColor="#660000"
-                        android:textSize="20sp" />
-
+                        android:background="#EEFF00"
+                        android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#EEFF00"
                         android:text="serviço de"
+                        android:textSize="20sp"
                         android:textColor="#660000"
-                        android:textSize="20sp" />
-
+                        android:background="#EEFF00"
+                        android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#EEFF00"
                         android:text="saúde mais"
+                        android:textSize="20sp"
                         android:textColor="#660000"
-                        android:textSize="20sp" />
-
+                        android:background="#EEFF00"
+                        android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#EEFF00"
                         android:text="próximo,"
+                        android:textSize="20sp"
                         android:textColor="#660000"
-                        android:textSize="20sp" />
-
+                        android:background="#EEFF00"
+                        android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#EEFF00"
                         android:text="pode ser"
+                        android:textSize="20sp"
                         android:textColor="#660000"
-                        android:textSize="20sp" />
-
+                        android:background="#EEFF00"
+                        android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#EEFF00"
                         android:text="sepse!"
+                        android:textSize="20sp"
                         android:textColor="#660000"
-                        android:textSize="20sp" />
+                        android:background="#EEFF00"
+                        android:layout_gravity="center_horizontal"/>
 
                 </LinearLayout>
 
@@ -146,10 +141,11 @@
 
             <ImageView
                 android:layout_width="0dp"
+                android:layout_weight="6"
                 android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:scaleType="fitXY"
-                android:src="@drawable/boneca_procure_saude"></ImageView>
+                android:src="@drawable/ic_resultado_res2"
+                android:scaleType="fitXY">
+            </ImageView>
 
         </LinearLayout>
 

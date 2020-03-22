@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context="com.example.ygo.sepse.ComoSaber_res3Activity"
+    tools:context="com.example.ygo.sepse.ComoSaber_res1Activity"
     >
 
     <TextView
@@ -63,9 +63,9 @@
 
             <FrameLayout
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
                 android:layout_weight="5"
-                android:background="#F43325">
+                android:layout_height="match_parent"
+                android:background="#DD0000">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -73,68 +73,62 @@
                     android:layout_gravity="center"
                     android:orientation="vertical">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Procure"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="#DD0000"
+            android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#DD0000"
-                        android:text="Procure"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#DD0000"
                         android:text="imediatamente"
+                        android:textSize="20sp"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
-
+                        android:background="#DD0000"
+                        android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#DD0000"
                         android:text="um hospital,"
+                        android:textSize="20sp"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
-
+                        android:background="#DD0000"
+                        android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#DD0000"
                         android:text="sua vida está"
+                        android:textSize="20sp"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
-
+                        android:background="#DD0000"
+                        android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#DD0000"
                         android:text="em risco."
+                        android:textSize="20sp"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
-
+                        android:background="#DD0000"
+                        android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#DD0000"
                         android:text="Pode ser"
+                        android:textSize="20sp"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
-
+                        android:background="#DD0000"
+                        android:layout_gravity="center_horizontal"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:background="#DD0000"
                         android:text="sepse!"
+                        android:textSize="20sp"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:background="#DD0000"
+                        android:layout_gravity="center_horizontal"/>
 
                 </LinearLayout>
 
@@ -149,7 +143,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="5"
                 android:layout_height="match_parent"
-                android:src="@drawable/boneco_dor_cabeca"
+                android:src="@drawable/ic_podemorrer"
                 android:scaleType="fitXY">
             </ImageView>
 
