@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context="com.example.ygo.sepse.Informacoes"
+    tools:context="br.edu.ifpe.sepse.Informacoes"
     >
 
 
@@ -19,7 +19,7 @@
         android:gravity="center"
         android:text="CONHEÇA MAIS SOBRE SEPSE"
         android:textColor="#FFFCFC"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,7 +51,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    app:srcCompat="@drawable/boneca_informacoes" />
+                    app:srcCompat="@drawable/ic_boneca_informacoes" />
 
 
             </LinearLayout>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context="com.example.ygo.sepse.SaibaMais2"
+    tools:context="br.edu.ifpe.sepse.SaibaMais2"
     >
 
     <TextView
@@ -18,7 +18,7 @@
         android:shadowColor="#FBF7F7"
         android:text="Sua identificação precoce é essencial para evitar complicação e morte "
         android:textColor="#FFFFFF"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 
 
     <ImageView
@@ -27,7 +27,7 @@
         android:layout_height="0dp"
         android:layout_weight="2"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/boneca_2_saiba_mais" />
+        app:srcCompat="@drawable/boneca_saiba_mais_2" />
 
     <TextView
         android:layout_width="match_parent"

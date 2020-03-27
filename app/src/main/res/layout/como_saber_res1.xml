@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context="com.example.ygo.sepse.ComoSaber_res1Activity"
+    tools:context="br.edu.ifpe.sepse.ComoSaber_res1Activity"
     >
 
     <TextView
@@ -93,6 +93,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="seus exames"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:background="#00AA00"
+                        android:layout_gravity="center_horizontal"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="e vacinas"
                         android:textSize="20sp"
                         android:textColor="#FFFFFF"
                         android:background="#00AA00"

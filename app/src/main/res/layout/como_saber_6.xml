@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context="com.example.ygo.sepse.ComoSaber6Activity"
+    tools:context="br.edu.ifpe.sepse.ComoSaber6Activity"
     >
 
     <TextView
